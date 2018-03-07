@@ -297,73 +297,77 @@ body .foot img {
   height: 100%;
 }
 
-body #index {
+body body {
+  padding: 0;
+}
+
+body body #index {
   width: 100%;
 }
 
-body #index #top {
+body body #index #top {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-body #index #top .left {
+body body #index #top .left {
   width: 30%;
   padding: 0.16rem 0.18rem;
 }
 
-body #index #top .left img {
+body body #index #top .left img {
   width: 100%;
 }
 
-body #index #top .right {
+body body #index #top .right {
   width: 20%;
   display: flex;
   justify-content: space-around;
 }
 
-body #index #top .right div {
+body body #index #top .right div {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body #index #top .right div i {
+body body #index #top .right div i {
   font-size: 0.35rem;
   color: #999999;
 }
 
-body #index #top .right div p {
+body body #index #top .right div p {
   color: #999;
   font-size: 0.22rem;
 }
 
-body #index .a img {
+body body #index .a img {
   width: 100%;
   height: 2.6rem;
 }
 
-body #index .a .swiper-pagination-bullet {
+body body #index .a .swiper-pagination-bullet {
   width: 0.15rem;
   height: 0.15rem;
   background: #7c7c7c;
 }
 
-body #index .a .swiper-pagination-bullet-active {
+body body #index .a .swiper-pagination-bullet-active {
   background: #016b58;
   width: 0.15rem;
   height: 0.15rem;
 }
 
-body #index #nav {
+body body #index #nav {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 0.4rem;
 }
 
-body #index #nav div {
+body body #index #nav div {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -371,28 +375,28 @@ body #index #nav div {
   padding-top: 0.36rem;
 }
 
-body #index #nav div p {
+body body #index #nav div p {
   font-size: 0.28rem;
   color: #333;
   padding-top: 0.16rem;
 }
 
-body #index #nav div img {
+body body #index #nav div img {
   width: 1.2rem;
   height: 1.2rem;
 }
 
-body #index .xian {
+body body #index .xian {
   width: 100%;
   height: 0.18rem;
   background: #ccc;
 }
 
-body #index #quanwu {
+body body #index #quanwu {
   width: 100%;
 }
 
-body #index #quanwu .top {
+body body #index #quanwu .top {
   width: 90%;
   display: flex;
   padding: 0.32rem 0;
@@ -400,52 +404,52 @@ body #index #quanwu .top {
   margin: 0 auto;
 }
 
-body #index #quanwu .top span {
+body body #index #quanwu .top span {
   width: 0.05rem;
   height: 0.42rem;
   background: #00be9c;
 }
 
-body #index #quanwu .top p:nth-of-type(1) {
+body body #index #quanwu .top p:nth-of-type(1) {
   font-size: 0.36rem;
   color: #000;
   padding-left: 0.1rem;
 }
 
-body #index #quanwu .top p:nth-of-type(2) {
+body body #index #quanwu .top p:nth-of-type(2) {
   font-size: 0.24rem;
   color: #999;
   padding-left: 0.1rem;
 }
 
-body #index #quanwu .b {
+body body #index #quanwu .b {
   width: 90%;
   margin: 0 auto;
 }
 
-body #index #quanwu .b img {
+body body #index #quanwu .b img {
   width: 100%;
   height: 100%;
 }
 
-body #index #quanwu .b .swiper-pagination {
+body body #index #quanwu .b .swiper-pagination {
   bottom: -0.3rem;
   background: black;
 }
 
-body #index #quanwu .b .swiper-pagination-bullet {
+body body #index #quanwu .b .swiper-pagination-bullet {
   width: 0.15rem;
   height: 0.15rem;
   background: #7c7c7c;
 }
 
-body #index #quanwu .b .swiper-pagination-bullet-active {
+body body #index #quanwu .b .swiper-pagination-bullet-active {
   background: #016b58;
   width: 0.15rem;
   height: 0.15rem;
 }
 
-body #index #quanwu .xia {
+body body #index #quanwu .xia {
   width: 90%;
   display: flex;
   margin: 0 auto;
@@ -453,29 +457,29 @@ body #index #quanwu .xia {
   justify-content: space-between;
 }
 
-body #index #quanwu .xia div {
+body body #index #quanwu .xia div {
   width: 33.33%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-body #index #quanwu .xia div p {
+body body #index #quanwu .xia div p {
   font-size: 0.23rem;
   color: #000;
   padding-left: 0.08rem;
 }
 
-body #index #quanwu .xia div i {
+body body #index #quanwu .xia div i {
   font-size: 0.4rem;
   color: #00be9c;
 }
 
-body #index #yuyue {
+body body #index #yuyue {
   width: 100%;
 }
 
-body #index #yuyue .top {
+body body #index #yuyue .top {
   width: 90%;
   display: flex;
   padding: 0.3rem 0;
@@ -483,31 +487,31 @@ body #index #yuyue .top {
   margin: 0 auto;
 }
 
-body #index #yuyue .top span {
+body body #index #yuyue .top span {
   width: 0.05rem;
   height: 0.42rem;
   background: #00be9c;
 }
 
-body #index #yuyue .top p:nth-of-type(1) {
+body body #index #yuyue .top p:nth-of-type(1) {
   font-size: 0.36rem;
   color: #000;
   padding-left: 0.1rem;
 }
 
-body #index #yuyue .top p:nth-of-type(2) {
+body body #index #yuyue .top p:nth-of-type(2) {
   font-size: 0.24rem;
   color: #999;
   padding-left: 0.1rem;
 }
 
-body #index #yuyue .center {
+body body #index #yuyue .center {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-body #index #yuyue .center div {
+body body #index #yuyue .center div {
   margin: 0 auto;
   width: 5.86rem;
   height: 0.7rem;
@@ -516,7 +520,7 @@ body #index #yuyue .center div {
   margin-bottom: 0.25rem;
 }
 
-body #index #yuyue .center div input {
+body body #index #yuyue .center div input {
   width: 100%;
   height: 100%;
   border: none;
@@ -525,7 +529,7 @@ body #index #yuyue .center div input {
   color: #cacaca;
 }
 
-body #index #yuyue .center div button {
+body body #index #yuyue .center div button {
   width: 100%;
   height: 100%;
   border: none;
@@ -536,16 +540,16 @@ body #index #yuyue .center div button {
   color: white;
 }
 
-body #index #yuyue .center ::-webkit-input-placeholder {
+body body #index #yuyue .center ::-webkit-input-placeholder {
   padding-left: 0.2rem;
 }
 
-body #index #sheji {
+body body #index #sheji {
   width: 100%;
   padding-bottom: 0.36rem;
 }
 
-body #index #sheji .top {
+body body #index #sheji .top {
   width: 90%;
   display: flex;
   padding: 0.3rem 0;
@@ -553,38 +557,38 @@ body #index #sheji .top {
   margin: 0 auto;
 }
 
-body #index #sheji .top span {
+body body #index #sheji .top span {
   width: 0.05rem;
   height: 0.42rem;
   background: #00be9c;
 }
 
-body #index #sheji .top p:nth-of-type(1) {
+body body #index #sheji .top p:nth-of-type(1) {
   font-size: 0.36rem;
   color: #000;
   padding-left: 0.1rem;
 }
 
-body #index #sheji .center {
+body body #index #sheji .center {
   width: 100%;
   display: flex;
   padding-bottom: 0.36rem;
 }
 
-body #index #sheji .center div {
+body body #index #sheji .center div {
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-body #index #sheji .center div p {
+body body #index #sheji .center div p {
   padding-top: 0.25rem;
   font-size: 0.36rem;
   color: #000;
 }
 
-body #index #sheji .center div span {
+body body #index #sheji .center div span {
   width: 1.2rem;
   height: 0.42rem;
   font-size: 0.24rem;
@@ -596,11 +600,11 @@ body #index #sheji .center div span {
   margin-top: 0.1rem;
 }
 
-body #index #sheji .center div img {
+body body #index #sheji .center div img {
   width: 80%;
 }
 
-body #index #sheji .xia {
+body body #index #sheji .xia {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -609,7 +613,7 @@ body #index #sheji .xia {
   line-height: 0.7rem;
 }
 
-body #index #sheji .xia p {
+body body #index #sheji .xia p {
   width: 50%;
   height: 0.7rem;
   border: 0.02rem solid #ccc;
@@ -617,16 +621,16 @@ body #index #sheji .xia p {
   color: #00be9c;
 }
 
-body #index #sheji .xia p i {
+body body #index #sheji .xia p i {
   font-size: 0.3rem;
   margin-left: 0.1rem;
 }
 
-body #index #xiaoguo {
+body body #index #xiaoguo {
   width: 100%;
 }
 
-body #index #xiaoguo .top {
+body body #index #xiaoguo .top {
   width: 90%;
   display: flex;
   padding: 0.3rem 0;
@@ -634,33 +638,33 @@ body #index #xiaoguo .top {
   margin: 0 auto;
 }
 
-body #index #xiaoguo .top span {
+body body #index #xiaoguo .top span {
   width: 0.05rem;
   height: 0.42rem;
   background: #00be9c;
 }
 
-body #index #xiaoguo .top p:nth-of-type(1) {
+body body #index #xiaoguo .top p:nth-of-type(1) {
   font-size: 0.36rem;
   color: #000;
   padding-left: 0.1rem;
 }
 
-body #index #xiaoguo .center {
+body body #index #xiaoguo .center {
   width: 90%;
   margin: 0 auto;
 }
 
-body #index #xiaoguo .center .shang {
+body body #index #xiaoguo .center .shang {
   position: relative;
   margin-bottom: 0.1rem;
 }
 
-body #index #xiaoguo .center .shang img {
+body body #index #xiaoguo .center .shang img {
   width: 100%;
 }
 
-body #index #xiaoguo .center .shang p {
+body body #index #xiaoguo .center .shang p {
   position: absolute;
   bottom: 0.15rem;
   right: 0.15rem;
@@ -675,22 +679,22 @@ body #index #xiaoguo .center .shang p {
   border-radius: 0.05rem;
 }
 
-body #index #xiaoguo .center .zhong {
+body body #index #xiaoguo .center .zhong {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-body #index #xiaoguo .center .zhong div {
+body body #index #xiaoguo .center .zhong div {
   width: 49.5%;
   position: relative;
 }
 
-body #index #xiaoguo .center .zhong div img {
+body body #index #xiaoguo .center .zhong div img {
   width: 100%;
 }
 
-body #index #xiaoguo .center .zhong div p {
+body body #index #xiaoguo .center .zhong div p {
   position: absolute;
   bottom: 0.15rem;
   right: 0.15rem;
@@ -705,7 +709,7 @@ body #index #xiaoguo .center .zhong div p {
   border-radius: 0.05rem;
 }
 
-body #index #xiaoguo .xia {
+body body #index #xiaoguo .xia {
   padding: 0.36rem 0;
   width: 90%;
   margin: 0 auto;
@@ -715,7 +719,7 @@ body #index #xiaoguo .xia {
   line-height: 0.7rem;
 }
 
-body #index #xiaoguo .xia p {
+body body #index #xiaoguo .xia p {
   width: 50%;
   height: 0.7rem;
   border: 0.02rem solid #ccc;
@@ -723,16 +727,16 @@ body #index #xiaoguo .xia p {
   color: #00be9c;
 }
 
-body #index #xiaoguo .xia p i {
+body body #index #xiaoguo .xia p i {
   font-size: 0.3rem;
   margin-left: 0.1rem;
 }
 
-body #index #gongdi {
+body body #index #gongdi {
   width: 100%;
 }
 
-body #index #gongdi .top {
+body body #index #gongdi .top {
   width: 90%;
   display: flex;
   padding: 0.3rem 0px;
@@ -740,39 +744,39 @@ body #index #gongdi .top {
   margin: 0 auto;
 }
 
-body #index #gongdi .top span {
+body body #index #gongdi .top span {
   width: 0.05rem;
   height: 0.42rem;
   background: #00be9c;
 }
 
-body #index #gongdi .top p:nth-of-type(1) {
+body body #index #gongdi .top p:nth-of-type(1) {
   font-size: 0.36rem;
   color: #000;
   padding-left: 0.1rem;
 }
 
-body #index #gongdi .center {
+body body #index #gongdi .center {
   width: 90%;
   margin: 0 auto;
 }
 
-body #index #gongdi .center img {
+body body #index #gongdi .center img {
   width: 100%;
 }
 
-body #index #gongdi .center div {
+body body #index #gongdi .center div {
   display: flex;
   align-items: center;
   margin-top: 0.1rem;
 }
 
-body #index #gongdi .center div p {
+body body #index #gongdi .center div p {
   font-size: 0.28rem;
   color: #000;
 }
 
-body #index #gongdi .center div span {
+body body #index #gongdi .center div span {
   background: #00be9c;
   color: white;
   font-size: 0.2rem;
@@ -784,7 +788,7 @@ body #index #gongdi .center div span {
   margin-left: 0.1rem;
 }
 
-body #index #gongdi .xia {
+body body #index #gongdi .xia {
   padding: 0.36rem 0;
   width: 90%;
   margin: 0 auto;
@@ -794,7 +798,7 @@ body #index #gongdi .xia {
   line-height: 0.7rem;
 }
 
-body #index #gongdi .xia p {
+body body #index #gongdi .xia p {
   width: 50%;
   height: 0.7rem;
   border: 0.02rem solid #ccc;
@@ -802,16 +806,16 @@ body #index #gongdi .xia p {
   color: #00be9c;
 }
 
-body #index #gongdi .xia p i {
+body body #index #gongdi .xia p i {
   font-size: 0.3rem;
   margin-left: 0.1rem;
 }
 
-body #index #gonglue {
+body body #index #gonglue {
   width: 100%;
 }
 
-body #index #gonglue .top {
+body body #index #gonglue .top {
   width: 90%;
   display: flex;
   padding-top: 0.3rem;
@@ -819,67 +823,67 @@ body #index #gonglue .top {
   margin: 0 auto;
 }
 
-body #index #gonglue .top span {
+body body #index #gonglue .top span {
   width: 0.05rem;
   height: 0.42rem;
   background: #00be9c;
 }
 
-body #index #gonglue .top p:nth-of-type(1) {
+body body #index #gonglue .top p:nth-of-type(1) {
   font-size: 0.36rem;
   color: #000;
   padding-left: 0.1rem;
 }
 
-body #index #gonglue .center {
+body body #index #gonglue .center {
   width: 90%;
   margin: 0 auto;
 }
 
-body #index #gonglue .center .div {
+body body #index #gonglue .center .div {
   display: flex;
   justify-content: space-between;
   padding: 0.31rem 0;
 }
 
-body #index #gonglue .center .div .zuo {
+body body #index #gonglue .center .div .zuo {
   width: 30%;
 }
 
-body #index #gonglue .center .div .zuo img {
+body body #index #gonglue .center .div .zuo img {
   width: 100%;
 }
 
-body #index #gonglue .center .div .you {
+body body #index #gonglue .center .div .you {
   width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-body #index #gonglue .center .div .you p {
+body body #index #gonglue .center .div .you p {
   font-size: 0.35rem;
   color: #000;
   padding-left: 0.22rem;
 }
 
-body #index #gonglue .center .div .you div {
+body body #index #gonglue .center .div .you div {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-body #index #gonglue .center .div .you div p {
+body body #index #gonglue .center .div .you div p {
   font-size: 0.28rem;
   color: #999;
 }
 
-body #index #gonglue .center .div .you div i {
+body body #index #gonglue .center .div .you div i {
   font-size: 0.3rem;
   padding-right: 0.2rem;
 }
 
-body #index #gonglue .xia {
+body body #index #gonglue .xia {
   padding: 0.36rem 0;
   width: 90%;
   margin: 0 auto;
@@ -889,7 +893,7 @@ body #index #gonglue .xia {
   line-height: 0.7rem;
 }
 
-body #index #gonglue .xia p {
+body body #index #gonglue .xia p {
   width: 50%;
   height: 0.7rem;
   border: 0.02rem solid #ccc;
@@ -897,12 +901,12 @@ body #index #gonglue .xia p {
   color: #00be9c;
 }
 
-body #index #gonglue .xia p i {
+body body #index #gonglue .xia p i {
   font-size: 0.3rem;
   margin-left: 0.1rem;
 }
 
-body #index .d-mshu {
+body body #index .d-mshu {
   width: 100%;
   box-sizing: border-box;
   padding: 0.2rem;
@@ -911,28 +915,28 @@ body #index .d-mshu {
   margin: 0.2rem 0;
 }
 
-body #index .fw {
+body body #index .fw {
   width: 100%;
   background: white;
   border-bottom: 0.02rem solid #eaeaea;
 }
 
-body #index .d-fw {
+body body #index .d-fw {
   width: 100%;
   font-size: 0.28rem;
   padding-top: 0.2rem;
 }
 
-body #index .d-fw p {
+body body #index .d-fw p {
   text-align: center;
 }
 
-body #index .d-fw i {
+body body #index .d-fw i {
   font-size: 0.28rem;
   color: #39C894;
 }
 
-body #index .d-fw1 {
+body body #index .d-fw1 {
   width: 90%;
   font-size: 0.28rem;
   display: flex;
@@ -940,24 +944,268 @@ body #index .d-fw1 {
   padding: 0.1rem 0;
 }
 
-body #index .d-fw1 div {
+body body #index .d-fw1 div {
   width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-body #index .d-fw1 div span {
+body body #index .d-fw1 div span {
   display: inline-block;
   width: 100%;
   border-right: 0.01rem solid #eaeaea;
   text-align: center;
 }
 
-body #index .d-fw1 div .d-span {
+body body #index .d-fw1 div .d-span {
   color: #39C894;
 }
 
-body #index .d-fw1 div .d-span1 {
+body body #index .d-fw1 div .d-span1 {
   border-right: 0px;
+}
+
+body body #evaluate .logo {
+  width: 100%;
+  height: 1.3rem;
+  border-bottom: 0.01rem solid #ebebeb;
+  display: flex;
+  align-items: center;
+}
+
+body body #evaluate .logo div:nth-of-type(1) {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body body #evaluate .logo div:nth-of-type(1) img {
+  width: 90%;
+}
+
+body body #evaluate .logo div:nth-of-type(2) {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body body #evaluate .logo div:nth-of-type(2) p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.4rem;
+}
+
+body body #evaluate .logo div:nth-of-type(3) {
+  width: 25%;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body body #evaluate .logo div:nth-of-type(3) p {
+  margin: 0;
+  font-size: 0.3rem;
+}
+
+body body #evaluate .logo div:nth-of-type(3) i {
+  font-size: 0.3rem;
+}
+
+body body #evaluate .appraise {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+body body #evaluate .appraise div:nth-of-type(1) {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+body body #evaluate .appraise div:nth-of-type(1) div {
+  width: 0.8rem;
+  height: 0.8rem;
+  background: #dcdcdc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 0.3rem;
+}
+
+body body #evaluate .appraise div:nth-of-type(1) div .iconfont {
+  font-size: 0.4rem;
+  color: white;
+}
+
+body body #evaluate .appraise div:nth-of-type(1) p {
+  margin: 0;
+  color: #3aca92;
+  font-size: 0.4rem;
+  padding: 0.3rem 0.3rem;
+}
+
+body body #evaluate .appraise div:nth-of-type(2) {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0.3rem;
+}
+
+body body #evaluate .appraise div:nth-of-type(2) p {
+  margin: 0;
+  color: #999;
+  font-size: 0.3rem;
+}
+
+body body #evaluate .estimate {
+  width: 100%;
+}
+
+body body #evaluate .estimate div {
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 0.01rem solid #ebebeb;
+  padding-left: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+body body #evaluate .estimate div p {
+  margin: 0;
+  font-size: 0.35rem;
+}
+
+body body #evaluate .pagination {
+  width: 100%;
+  padding: 0.5rem 0rem;
+}
+
+body body #evaluate .pagination div {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+
+body body #evaluate .pagination div div:nth-of-type(1) {
+  width: 2.4rem;
+  height: 0.8rem;
+  background: #39c893;
+  color: white;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body body #evaluate .pagination div div:nth-of-type(2) {
+  width: 2.4rem;
+  height: 0.8rem;
+  border-top: 0.01rem solid #f2f2f2;
+  border-bottom: 0.01rem solid #f2f2f2;
+  color: black;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body body #evaluate .pagination div div:nth-of-type(3) {
+  width: 2.4rem;
+  height: 0.8rem;
+  background: #39c893;
+  color: white;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body body #evaluate .describe {
+  width: 100%;
+  padding: 0.3rem 0rem;
+  font-size: 0.28rem;
+}
+
+body body #evaluate .describe div {
+  width: 95%;
+  margin: 0 auto;
+}
+
+body body #evaluate .describe div p {
+  margin: 0;
+  padding: 0.05rem 0rem;
+}
+
+body body #evaluate .service hotline {
+  width: 100%;
+  background: white;
+  border-bottom: 0.02rem solid #eaeaea;
+}
+
+body body #evaluate .d-fw {
+  width: 100%;
+  font-size: 0.28rem;
+  padding-top: 0.2rem;
+}
+
+body body #evaluate .d-fw p {
+  text-align: center;
+}
+
+body body #evaluate .d-fw i {
+  font-size: 0.28rem;
+  color: #39C894;
+}
+
+body body #evaluate .d-fw1 {
+  width: 90%;
+  font-size: 0.28rem;
+  display: flex;
+  margin: 0 auto;
+  padding: 0.1rem 0;
+}
+
+body body #evaluate .d-fw1 div {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body body #evaluate .d-fw1 div span {
+  display: inline-block;
+  width: 100%;
+  border-right: 0.01rem solid #eaeaea;
+  text-align: center;
+}
+
+body body #evaluate .d-fw1 div .d-span {
+  color: #39C894;
+}
+
+body body #evaluate .d-fw1 div .d-span1 {
+  border-right: 0px;
+}
+
+body body #evaluate .backToTheTop {
+  width: 1rem;
+  height: 1rem;
+  border: 0.01rem solid #eaeaea;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 75%;
+  right: 0.2rem;
+  background: white;
+}
+
+body body #evaluate .backToTheTop i {
+  font-size: 0.5rem;
+  color: #eaeaea;
 }
