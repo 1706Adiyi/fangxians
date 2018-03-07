@@ -1,6 +1,5 @@
 body {
   padding: 0;
-<<<<<<< HEAD
   margin: 0;
 }
 
@@ -80,142 +79,10 @@ body .before {
 }
 
 body .before img {
-=======
-}
-
-body #index {
-  width: 100%;
-}
-
-body #index #top {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-body #index #top .left {
-  width: 30%;
-  padding: 0.16rem 0.18rem;
-}
-
-body #index #top .left img {
-  width: 100%;
-}
-
-body #index #top .right {
-  width: 20%;
-  display: flex;
-  justify-content: space-around;
-}
-
-body #index #top .right div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-body #index #top .right div i {
-  font-size: 0.35rem;
-  color: #999999;
-}
-
-body #index #top .right div p {
-  color: #999;
-  font-size: 0.22rem;
-}
-
-body #index .a img {
-  width: 100%;
-  height: 2.6rem;
-}
-
-body #index .a .swiper-pagination-bullet {
-  width: 0.15rem;
-  height: 0.15rem;
-  background: #7c7c7c;
-}
-
-body #index .a .swiper-pagination-bullet-active {
-  background: #016b58;
-  width: 0.15rem;
-  height: 0.15rem;
-}
-
-body #index #nav {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 0.4rem;
-}
-
-body #index #nav div {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 0.36rem;
-}
-
-body #index #nav div p {
-  font-size: 0.28rem;
-  color: #333;
-  padding-top: 0.16rem;
-}
-
-body #index #nav div img {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-body #index .xian {
-  width: 100%;
-  height: 0.18rem;
-  background: #ccc;
-}
-
-body #index #quanwu {
-  width: 100%;
-}
-
-body #index #quanwu .top {
-  width: 90%;
-  display: flex;
-  padding: 0.32rem 0;
-  align-items: flex-end;
-  margin: 0 auto;
-}
-
-body #index #quanwu .top span {
-  width: 0.05rem;
-  height: 0.42rem;
-  background: #00be9c;
-}
-
-body #index #quanwu .top p:nth-of-type(1) {
-  font-size: 0.36rem;
-  color: #000;
-  padding-left: 0.1rem;
-}
-
-body #index #quanwu .top p:nth-of-type(2) {
-  font-size: 0.24rem;
-  color: #999;
-  padding-left: 0.1rem;
-}
-
-body #index #quanwu .b {
-  width: 90%;
-  margin: 0 auto;
-}
-
-body #index #quanwu .b img {
->>>>>>> dev
   width: 100%;
   height: 100%;
 }
 
-<<<<<<< HEAD
 body .before h3 {
   color: #ff4351;
   font-size: 0.36rem;
@@ -377,7 +244,190 @@ body .lianxi {
 }
 
 body .lianxi .server {
-=======
+  display: flex;
+  align-items: center;
+}
+
+body .lianxi .server p {
+  color: #39C893;
+  font-size: 0.28rem;
+}
+
+body .lianxi .icon-top {
+  font-size: 0.2rem;
+  padding: 0.027rem;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  position: absolute;
+  left: 90%;
+  color: #9c9c9c;
+}
+
+body .chuping {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.14rem;
+  font-size: 0.28rem;
+}
+
+body .chuping span:nth-child(1) {
+  color: #3ACA92;
+}
+
+body .footer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  background: #000000;
+}
+
+body .footer img {
+  width: 100%;
+  height: 100%;
+}
+
+body .foot {
+  width: 100%;
+  display: flex;
+}
+
+body .foot img {
+  width: 100%;
+  height: 100%;
+}
+
+body #index {
+  width: 100%;
+}
+
+body #index #top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body #index #top .left {
+  width: 30%;
+  padding: 0.16rem 0.18rem;
+}
+
+body #index #top .left img {
+  width: 100%;
+}
+
+body #index #top .right {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+body #index #top .right div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body #index #top .right div i {
+  font-size: 0.35rem;
+  color: #999999;
+}
+
+body #index #top .right div p {
+  color: #999;
+  font-size: 0.22rem;
+}
+
+body #index .a img {
+  width: 100%;
+  height: 2.6rem;
+}
+
+body #index .a .swiper-pagination-bullet {
+  width: 0.15rem;
+  height: 0.15rem;
+  background: #7c7c7c;
+}
+
+body #index .a .swiper-pagination-bullet-active {
+  background: #016b58;
+  width: 0.15rem;
+  height: 0.15rem;
+}
+
+body #index #nav {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0.4rem;
+}
+
+body #index #nav div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.36rem;
+}
+
+body #index #nav div p {
+  font-size: 0.28rem;
+  color: #333;
+  padding-top: 0.16rem;
+}
+
+body #index #nav div img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+body #index .xian {
+  width: 100%;
+  height: 0.18rem;
+  background: #ccc;
+}
+
+body #index #quanwu {
+  width: 100%;
+}
+
+body #index #quanwu .top {
+  width: 90%;
+  display: flex;
+  padding: 0.32rem 0;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+
+body #index #quanwu .top span {
+  width: 0.05rem;
+  height: 0.42rem;
+  background: #00be9c;
+}
+
+body #index #quanwu .top p:nth-of-type(1) {
+  font-size: 0.36rem;
+  color: #000;
+  padding-left: 0.1rem;
+}
+
+body #index #quanwu .top p:nth-of-type(2) {
+  font-size: 0.24rem;
+  color: #999;
+  padding-left: 0.1rem;
+}
+
+body #index #quanwu .b {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body #index #quanwu .b img {
+  width: 100%;
+  height: 100%;
+}
+
 body #index #quanwu .b .swiper-pagination {
   bottom: -0.3rem;
   background: black;
@@ -815,60 +865,10 @@ body #index #gonglue .center .div .you p {
 
 body #index #gonglue .center .div .you div {
   width: 100%;
->>>>>>> dev
   display: flex;
   align-items: center;
 }
 
-<<<<<<< HEAD
-body .lianxi .server p {
-  color: #39C893;
-  font-size: 0.28rem;
-}
-
-body .lianxi .icon-top {
-  font-size: 0.2rem;
-  padding: 0.027rem;
-  border: 1px solid #dedede;
-  border-radius: 50%;
-  position: absolute;
-  left: 90%;
-  color: #9c9c9c;
-}
-
-body .chuping {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 0.14rem;
-  font-size: 0.28rem;
-}
-
-body .chuping span:nth-child(1) {
-  color: #3ACA92;
-}
-
-body .footer {
-  position: relative;
-  width: 100%;
-  display: flex;
-  background: #000000;
-}
-
-body .footer img {
-  width: 100%;
-  height: 100%;
-}
-
-body .foot {
-  width: 100%;
-  display: flex;
-}
-
-body .foot img {
-  width: 100%;
-  height: 100%;
-=======
 body #index #gonglue .center .div .you div p {
   font-size: 0.28rem;
   color: #999;
@@ -960,5 +960,4 @@ body #index .d-fw1 div .d-span {
 
 body #index .d-fw1 div .d-span1 {
   border-right: 0px;
->>>>>>> dev
 }
